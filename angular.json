@@ -25,8 +25,6 @@
             "styles": [
               "./node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.css"
-              
-
             ],
             "scripts": [],
             "aot": true
@@ -123,5 +121,8 @@
       }
     }
   },
-  "defaultProject": "AngularAluno"
+  "defaultProject": "AngularAluno",
+  "cli": {
+    "analytics": "c08ce320-899c-41cc-a055-d4e752c16ee9"
+  }
 }
