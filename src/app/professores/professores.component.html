@@ -1,0 +1,19 @@
+<app-titulo [titulo]="titulo"></app-titulo>
+
+
+<table class="table table-hover table-bordered">
+    <thead>
+        <tr>
+            <th>#</th>
+            <th>Name</th>
+            <th>Disciplina</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let prof of Professores">
+            <td scope="row">{{prof.id}}</td>
+            <td>{{prof.Name}}</td>
+            <td>{{prof.disciplina}}</td>
+        </tr>
+    </tbody>
+</table>

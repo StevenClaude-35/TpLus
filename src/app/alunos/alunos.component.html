@@ -1,0 +1,20 @@
+<app-titulo [titulo]="'Alunos'"></app-titulo>
+
+<table class="table table-hover table-bordered">
+  <thead>
+    <tr>
+      <th>#</th>
+      <th>FirstName</th>
+      <th>LastName</th>
+      <th>Phone</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let alu of alunos">
+      <td scope="row">{{alu.id}}</td>
+      <td>{{alu.firstName}}</td>
+      <td>{{alu.lastName}}</td>
+      <td>{{alu.Phone}}</td>
+    </tr>
+  </tbody>
+</table>
